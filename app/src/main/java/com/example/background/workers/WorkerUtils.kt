@@ -92,7 +92,7 @@ fun makeStatusNotification(message: String, context: Context) {
  * Method for sleeping for a fixed amount of time to emulate slower work
  */
 fun sleep() {
-    try {
+   try {
         Thread.sleep(DELAY_TIME_MILLIS, 0)
     } catch (e: InterruptedException) {
         Log.e(TAG, e.message.toString())
